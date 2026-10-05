@@ -94,7 +94,7 @@ The application manipulates containers, so run it as **root** (or launch it with
 
 ## Building and running
 
-    git clone <this repository> nspawn-studio
+    git clone https://github.com/Dhmhtrhs23/Nspawn-Studio.git nspawn-studio
     cd nspawn-studio
     cargo build --release
     sudo ./target/release/nspawn-studio
