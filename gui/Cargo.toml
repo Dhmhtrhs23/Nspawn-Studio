@@ -1,0 +1,16 @@
+[package]
+name = "nspawn-studio"
+version = "1.0.0"
+edition = "2021"
+description = "GTK4/libadwaita GUI to create, configure and manage systemd-nspawn containers"
+license = "MIT"
+rust-version = "1.80"
+
+[[bin]]
+name = "nspawn-studio"
+path = "src/main.rs"
+
+[dependencies]
+nspawn-studio-core = { path = "../core" }
+gtk4 = { version = "0.9", features = ["v4_10"] }
+libadwaita = { version = "0.7", features = ["v1_4"] }

@@ -1,0 +1,9 @@
+[workspace]
+resolver = "2"
+members = ["core", "gui"]
+
+[profile.release]
+opt-level = "z"
+lto = "thin"
+codegen-units = 4
+strip = true

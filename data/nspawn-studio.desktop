@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Nspawn Studio
+GenericName=Container Manager
+Comment=Create, configure and manage systemd-nspawn containers
+Exec=nspawn-studio
+Icon=nspawn-studio
+Terminal=false
+Categories=System;Utility;
+Keywords=container;nspawn;chroot;systemd;sandbox;debootstrap;
+StartupNotify=true

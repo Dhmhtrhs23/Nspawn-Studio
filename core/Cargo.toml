@@ -1,0 +1,15 @@
+[package]
+name = "nspawn-studio-core"
+version = "1.0.0"
+edition = "2021"
+description = "Core logic for Nspawn Studio: container model, configuration store and systemd-nspawn launcher generation"
+license = "MIT"
+rust-version = "1.80"
+
+[lib]
+name = "nspawn_studio_core"
+path = "src/lib.rs"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
